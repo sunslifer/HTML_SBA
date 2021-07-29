@@ -54,6 +54,7 @@ footer {
     flex-shrink: 0;
 }
 
-td:first-of-type {
+td:last-of-type {
     color:red;
+    font-family: 'Dancing Script', cursive;
 }
