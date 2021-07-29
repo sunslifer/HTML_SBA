@@ -1,4 +1,4 @@
-function validate(){
+function validate(event){
     event.preventDefault();
 
 	if(document.myForm.Name.value == '')
