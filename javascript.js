@@ -20,3 +20,12 @@ function validate(event){
         console.log(Email);
 	}
 }
+
+function timeUpdate() {
+    var todaysDate = new Date();
+    var time = todaysDate.toLocaleTimeString();
+    const element = document.getElementById("clock");
+    element.innerHTML = time;
+}
+
+var t = setInterval(timeUpdate, 1000);
